@@ -8,12 +8,12 @@ public class Main {
         
         ceknilai penentuNilai = new ceknilai();
 
-        System.out.print("Masukkan skor mahasiswa (0-100): ");
+        System.out.print("masukkan skor mahasiswa (0-100): ");
         int skor = inputScanner.nextInt();
         
         String hasilEvaluasi = penentuNilai.dapatkanHasil(skor);
         
-        System.out.println("\n--- Hasil Akhir ---");
+        System.out.println("\n--- hasil akhir ---");
         System.out.println(hasilEvaluasi);
         
         inputScanner.close();
