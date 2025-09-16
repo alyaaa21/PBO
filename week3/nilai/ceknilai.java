@@ -3,28 +3,28 @@ package PBO.week3.nilai;
 public class ceknilai {
     public String dapatkanHasil(int skor) {
         if (skor > 100 || skor < 0) {
-            return "Error: Skor yang dimasukkan tidak valid.";
+            return "error: skor yang dimasukkan tidak valid.";
         }
         String statusKelulusan;
         String grade;
 
         if (skor >= 85) {
-            statusKelulusan = "Lulus";
+            statusKelulusan = "lulus";
             grade = "A";
         } else if (skor >= 70) {
-            statusKelulusan = "Lulus";
+            statusKelulusan = "lulus";
             grade = "B";
         } else if (skor >= 60) {
-            statusKelulusan = "Lulus";
+            statusKelulusan = "lulus";
             grade = "C";
         } else if (skor >= 50) {
-            statusKelulusan = "Tidak Lulus";
+            statusKelulusan = "tidak lulus";
             grade = "D";
         } else {
-            statusKelulusan = "Tidak Lulus";
+            statusKelulusan = "tidak lulus";
             grade = "E";
         }
         
-        return "Status Kelulusan: " + statusKelulusan + "\nGrade Nilai: " + grade;
+        return "status kelulusan: " + statusKelulusan + "\nGrade Nilai: " + grade;
     }
 }
