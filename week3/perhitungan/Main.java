@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner inputPengguna = new Scanner(System.in);
-        OperasiMatematika operator = new kalkulator();
+        kalkulator operator = new kalkulator();
 
         System.out.print("input bilangan pertama: ");
         int angka1 = inputPengguna.nextInt();
